@@ -1,0 +1,23 @@
+body{margin: 0}
+
+h1{
+    text-align: center;
+}
+
+.expense-entry{
+    display: flex;
+    color: #9D8189;
+    background-color: #D8E2DC;
+    border: 2px solid #9D8189;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.entry{
+    padding: 20px;
+}
+
+.split-price {
+    color: #F4ACB7;
+}

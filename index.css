@@ -1,14 +1,59 @@
-body{margin: 0}
+body{
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: #EDF2F4;
+}
 
 h1{
     text-align: center;
+    color: #2B2D42;
+}
+
+.entry-form {
+    display: flex;
+    justify-content: center;    
+}
+
+.entry-form-bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8D99AE;
+    border-radius: 20px;
+    width: 25%;
+    padding: 5%;
+}
+
+.entry-field {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+}
+
+.entry-label{
+    display: inline-block;
+    width: 48%;
+}
+
+input, select {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.entry-btn {
+    width: 100%;
+    background-color: #EDF2F4;
+    border: 2px solid #2B2D42;
+    border-radius: 5px;
+    height: 30px;
+
 }
 
 .expense-entry{
     display: flex;
-    color: #9D8189;
-    background-color: #D8E2DC;
-    border: 2px solid #9D8189;
+    color: #2B2D42;
+    background-color: #BFC6D2;
+    border: 2px solid #2B2D42;
     border-radius: 20px;
     font-weight: bold;
     margin: 5px;
@@ -19,5 +64,9 @@ h1{
 }
 
 .split-price {
-    color: #F4ACB7;
+    margin: 0 0 0 auto;
+    color: #2B2D42;
 }
+
+
+/* slider styling */

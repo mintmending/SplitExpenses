@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- CSS sheet -->
     <link rel="stylesheet" href="index.css">
     
@@ -53,14 +57,12 @@
     </section>
 
     <!-- add a selection (Tom vs Anna) and a summary of how much is owed  -->
-    <section>
-        <div class="person-switch">
-
-        </div>
-        <div class="amount-owed">
-            
-        </div>
+    <section class="amount-owed">
+        <input type="checkbox" class="toggle-account">
+        <p><span id="money-owed">owes </span> / <span id="money-getsback"> gets back</span></p>
+        <div class="sum">0€</div>
     </section>
+    
 
 
     <!-- render entry list here -->

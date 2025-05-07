@@ -57,10 +57,12 @@
     </section>
 
     <!-- add a selection (Tom vs Anna) and a summary of how much is owed  -->
-    <section class="amount-owed">
-        <input type="checkbox" class="toggle-account">
-        <p><span id="money-owed">owes </span> / <span id="money-getsback"> gets back</span></p>
-        <div class="sum">0€</div>
+    <section class="amount-owed money-getsback" id="amount-owed">
+        <input type="checkbox" 
+        class="toggle-account money-getsback"
+        id="toggle-account">
+        <p class="money-getsback" id="money-text">gets back</p>
+        <div class="money-getsback" id="div-sum">0€</div>
     </section>
     
 
